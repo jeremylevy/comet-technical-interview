@@ -54,7 +54,7 @@ npm run destroy
 
 #### 💡 Tip: Terraform CLI
 
-The `terraform` command could also be run directly in the `infrastructure` folder.
+The `terraform` command could also be used directly in the `infrastructure` folder.
 
 ## Infrastructure
 
