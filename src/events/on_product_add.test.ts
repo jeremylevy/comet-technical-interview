@@ -57,7 +57,8 @@ describe('handler', () => {
     await handler(dynamodbEvent)
 
     expect(SNSPublishParams).toStrictEqual({
-      Message: `New product added in DB: ${productName}`,
+      Subject: 'New product added in DB!',
+      Message: `A new product was added in the database: ${productName}`,
       TopicArn: process.env.SNS_TOPIC_ARN
     })
   })

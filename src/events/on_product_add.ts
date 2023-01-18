@@ -23,7 +23,8 @@ export const handler = async (event: DynamoDBStreamEvent): Promise<void> => {
   const SNSClient = new AWS.SNS({ apiVersion: '2010-03-31' })
 
   await SNSClient.publish({
-    Message: `New product added in DB: ${productName}`,
+    Subject: 'New product added in DB!',
+    Message: `A new product was added in the database: ${productName}`,
     TopicArn: SNSTopicARN
   }).promise()
 }
