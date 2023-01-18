@@ -58,7 +58,8 @@ The `terraform` command could also be used directly in the `infrastructure` fold
 
 ## Infrastructure
 
-![The Comet technical test infrastructure](./public/assets/infra_schema.png)
+![The Comet technical test infrastructure](./public/assets/infra_schema_dark.png#gh-dark-mode-only)
+![The Comet technical test infrastructure](./public/assets/infra_schema_white.png#gh-light-mode-only)
 
 The schema above describe all the components that will be created in your AWS account once deployed:
 
