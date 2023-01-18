@@ -52,9 +52,9 @@ npm run destroy
 * `npm run deploy`: lint, test, build and create (or update) the infrastructure on your AWS account
 * `npm run destroy`: destroy the infrastructure on your AWS account
 
-* `npm run tf:init`: initialize Terraform
-* `npm run tf:apply`: create (or update) the infrastructure on your AWS account
-* `npm run tf:fmt`: format Terraform code
+#### 💡 Tip: Terraform CLI
+
+The `terraform` command could also be run directly in the `infrastructure` folder.
 
 ## Infrastructure
 
